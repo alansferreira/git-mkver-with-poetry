@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "git-mkver-with-poetry"
-version = "1.0.0"
+version = "0.1.0"
 description = "Sample Python/Poetry project with conventional commits"
 authors = ["Alan S. Ferreira <alansferreira1984@gmail.com>"]
 readme = "README.md"
