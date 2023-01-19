@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "git-mkver-with-poetry"
+version = "1.0.0"
+description = "Sample Python/Poetry project with conventional commits"
+authors = ["Alan S. Ferreira <alansferreira1984@gmail.com>"]
+readme = "README.md"
+# packages = [{ include = "scripts", from = "src" }, { include = "libs", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+# commitizen = "^2.37.1"
+# pre-commit = "^2.20.0"
+
+[build-system]
+requires = ["poetry-core"]
+
+# [tool.commitizen]
+# name = "cz_conventional_commits"
+# version = "1.0.0"
+# tag_format = "$version"
+# version_files = [
+#   "pyproject.toml:version"
+# ]
