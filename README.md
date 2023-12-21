@@ -47,7 +47,7 @@ git mkver patch
 poetry version $(cat .semver)
 # Commit Bumped files
 git add .semver pyproject.toml
-git commit -m "build: bumping to $(cat .semver)"
+git commit -m "build: [skip-ci] bumping to $(cat .semver)"
 git mkver tag
 
 # Push your(s) tag(s) to remote
